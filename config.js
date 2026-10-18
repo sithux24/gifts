@@ -16,7 +16,7 @@ window.GIFT_CONFIG = {
 
   /* ── WHO IS IT FOR ── */
   name: "Alex",                       // shown nowhere obvious but used in titles
-  passcode: "2009",                   // any length: "1234", "090305"...
+  passcode: "2007",                   // any length: "1234", "090305"...
   lockTitle: "Enter a passcode",
   lockHint: "Enter the 4-digit secret passcode 💖",
   wrongText: "Oops! Wrong passcode! Try again, cutie! 🥺",
@@ -51,7 +51,7 @@ window.GIFT_CONFIG = {
   /* ── THE GIFT BOXES ── */
   boxes: [
     { type: "gallery", label: "Memories", title: "MEMORIES", photos: [
-      { src: "assets/memory1.jpg", caption: "Waku Waku Cake! 🎂" },
+      { src: "assets/memory1.jpg", caption: "he heee! 🎂" },
       { src: "assets/memory2.jpg", caption: "Heh! Peanuts & Gift 🎁" },
       { src: "assets/memory3.jpg", caption: "Best Friend! 🎈" },
       { src: "assets/memory4.jpg", caption: "Make A Wish 🕯️✨" },
