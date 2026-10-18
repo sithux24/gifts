@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Gifts 🎁</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Courier+Prime:wght@400;700&family=Fredoka:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bg-ambient"></div>
+  <div id="app"></div>
+
+  <!-- Generic modal used by every gift type -->
+  <div id="modal" class="hidden">
+    <div class="modal-card" id="modal-card">
+      <button class="modal-x" id="modal-x" aria-label="Close">✕</button>
+      <h3 id="modal-title"></h3>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="hidden"></div>
+
+  <!-- Opening curtains + countdown -->
+  <div id="curtains" class="hidden">
+    <div class="curtain cl"><div class="fabric"></div></div>
+    <div class="curtain cr"><div class="fabric"></div></div>
+    <div id="cd-center">
+      <div id="cd-label"></div>
+      <div id="cd-num"></div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
